@@ -1,4 +1,4 @@
-# Guidebook: Alterra Academy Kelas Golang
+## Guidebook: Alterra Academy Kelas Golang
 
 ![Header](assets/banner.png)
 
