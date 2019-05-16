@@ -4,7 +4,7 @@
 
 ### Kurikulum Silabus
 ### Week 1
-- Alta Go 1 # Topik
+- [Alta Go 1 # Dasar Pemrograman Golang](./src/MODUL-GO-1.md)
 - Alta Go 2 # Topik
 ### Week 2
 - Alta Go 3 # Topik
