@@ -2,7 +2,7 @@
 
 ![Header](assets/banner.png)
 
-## Kurikulum Silabus
+### Kurikulum Silabus
 ### Week 1
 - Alta Go 1 # Topik
 - Alta Go 2 # Topik
