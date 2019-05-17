@@ -1,66 +1,54 @@
 ## Alta Go 1 # Dasar Pemrograman Golang
 
-Tahukah kamu jika *string* adalah sebuah *array*? Kamu dapat mengakses karakter-karakter pada sebuah string layaknya mengakses nilai pada sebuah array. Untuk membuktikannya, kerjakanlah tantangan ini!
-
 ## Objektif
 
 - Objektif 2
 - Objektif 1
 
-## Tugas 1 -
+## Tugas 1 - Faktor Bilangan
 
-Ubahlah seluruh `var` pada kode JavaScript dibawah ini menjadi `let` atau `const`!
+Faktor suatu bilangan adalah suatu bilangan yang dapat habis membagi bilangan tersebut. Tugas anda adalah membuat sebuah program untuk mencetak faktor sebuah bilangan.
 
-```javascript
+```python
+def faktorBilangan(angka):
+  # your code here
 
-radius = 21;
-var area21 = calculateArea(radius);
-
-radius = 7;
-var area7 = calculateArea(radius);
-
-console.log('area with 21 radius: ' + area21 + ', and area with 7 radius: ' + area7);
-```
-
-### Input
-
-```
-LOOPING PERTAMA
-2 - I love coding
-4 - I love coding
-6 - I love coding
-8 - I love coding
-10 - I love coding
-```
+# Driver Code
+faktorBilangan(6) # 1 2 3 6
+faktorBilangan(12) # 1 2 3 4 6 12
+faktorBilangan(14) # 1 2 7 14
+faktorBilangan(16) # 1 2 4 8 16
+faktorBilangan(20) # 1 2 4 5 10 20
 
 ### Output
-
 ```
-LOOPING PERTAMA
-2 - I love coding
-4 - I love coding
-6 - I love coding
-8 - I love coding
-10 - I love coding
+1 2 3 6
+1 2 3 4 6 12
+1 2 7 14
+1 2 4 8 16
+1 2 4 5 10 20
 ```
 
-## Tugas 2
+## Tugas 2 - Faktor Bilangan
 
-Ubahlah anonymous functions dibawah ini menjadi ES6 Arrow Function!
+Faktor suatu bilangan adalah suatu bilangan yang dapat habis membagi bilangan tersebut. Tugas anda adalah membuat sebuah program untuk mencetak faktor sebuah bilangan.
 
-```javascript
-  const multiply = function (num1, num2) {
-    return num1 * num2;
-  }
+```python
+def faktorBilangan(angka):
+  # your code here
 
-  const divide = function (num1, num2) {
-    return num1 / num2;
-  }
+# Driver Code
+faktorBilangan(6) # 1 2 3 6
+faktorBilangan(12) # 1 2 3 4 6 12
+faktorBilangan(14) # 1 2 7 14
+faktorBilangan(16) # 1 2 4 8 16
+faktorBilangan(20) # 1 2 4 5 10 20
 
-  const doubleMe = function (num) {
-    return num * 2;
-  }
-
-  console.log(multiply(5,2));
-  console.log(divide(10,2));
+### Output
+```
+1 2 3 6
+1 2 3 4 6 12
+1 2 7 14
+1 2 4 8 16
+1 2 4 5 10 20
 ```
