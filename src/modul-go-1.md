@@ -9,7 +9,7 @@
 
 Faktor suatu bilangan adalah suatu bilangan yang dapat habis membagi bilangan tersebut. Tugas anda adalah membuat sebuah program untuk mencetak faktor sebuah bilangan.
 
-### Sample Test Cases
+#### Sample Test Cases
 
 ```
 Input: 6
@@ -28,6 +28,7 @@ Output:
 10
 20
 ```
+#### Code
 
 ```golang
 package main
