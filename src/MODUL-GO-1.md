@@ -26,7 +26,7 @@ var seventh = 'it!';
 JavaScript is awesome and I love it!
 ```
 
-## 2. Index Accessing - 1 by 1
+## 2. Index Accessing
 
 ### Problem
 
