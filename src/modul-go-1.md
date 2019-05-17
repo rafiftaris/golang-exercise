@@ -5,9 +5,29 @@
 - Objektif 2
 - Objektif 1
 
-## Tugas 1 - Faktor Bilangan
+## Challenge 1 - Faktor Bilangan
 
 Faktor suatu bilangan adalah suatu bilangan yang dapat habis membagi bilangan tersebut. Tugas anda adalah membuat sebuah program untuk mencetak faktor sebuah bilangan.
+
+### Sample Test Cases
+
+```
+Input: 6
+Output:
+1
+2
+3
+6
+
+Input: 20
+Output:
+1
+2
+4
+5
+10
+20
+```
 
 ```golang
 package main
@@ -17,21 +37,8 @@ import(
 )
 
 func main() {
-  N := 20
   // kode disini
 }
-```
-
-### Output
-
-```
-Faktor Bilangan:
-1
-2
-4
-5
-10
-20
 ```
 
 ## Tugas 2 - Faktor Bilangan
