@@ -1,28 +1,17 @@
-# Mengakses Nilai Dalam Array
+## Alta Go 1 # Dasar Pemrograman Golang
 
 Tahukah kamu jika *string* adalah sebuah *array*? Kamu dapat mengakses karakter-karakter pada sebuah string layaknya mengakses nilai pada sebuah array. Untuk membuktikannya, kerjakanlah tantangan ini!
 
-## Objectives
+## Objektif
 
-- Mengetahui *properties* Pada Array
-- Mengerti Cara Mengakses Nilai Dalam Array
+- Objektif 2
+- Objektif 1
 
-## Directions
-
-Buatlah sebuah fungsi dengan nama **balikString**. Fungsi ini akan menerima argumen sebuah string dan mengembalikan kebalikannya. 
-
-
-### Tugas 1
+## Tugas 1 -
 
 Ubahlah seluruh `var` pada kode JavaScript dibawah ini menjadi `let` atau `const`!
 
 ```javascript
-var phi = 3.14;
-var power = 2;
-var radius = 0;
-var calculateArea = function (radius) {
-  return phi * Math.pow(radius, power);
-}
 
 radius = 21;
 var area21 = calculateArea(radius);
@@ -55,7 +44,7 @@ LOOPING PERTAMA
 10 - I love coding
 ```
 
-### Tugas 2
+## Tugas 2
 
 Ubahlah anonymous functions dibawah ini menjadi ES6 Arrow Function!
 
