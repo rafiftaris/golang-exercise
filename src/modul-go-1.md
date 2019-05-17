@@ -33,6 +33,28 @@ var area7 = calculateArea(radius);
 console.log('area with 21 radius: ' + area21 + ', and area with 7 radius: ' + area7);
 ```
 
+### Input
+
+```
+LOOPING PERTAMA
+2 - I love coding
+4 - I love coding
+6 - I love coding
+8 - I love coding
+10 - I love coding
+```
+
+### Output
+
+```
+LOOPING PERTAMA
+2 - I love coding
+4 - I love coding
+6 - I love coding
+8 - I love coding
+10 - I love coding
+```
+
 ### Tugas 2
 
 Ubahlah anonymous functions dibawah ini menjadi ES6 Arrow Function!
