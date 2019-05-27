@@ -125,20 +125,20 @@ func main() {
 }
 ```
 
-## Challenge 5 - Bilangan Prima
+## Challenge 5 - Palindrom
 
-Dalam matematika, bilangan prima adalah bilangan asli yang lebih besar dari angka 1, yang faktor pembaginya adalah 1 dan bilangan itu sendiri. 2 dan 3 adalah bilangan prima. 4 bukan bilangan prima karena 4 bisa dibagi 2. Kamu diminta untuk membuat fungsi untuk menentukan bahwa sebuah bilangan termasuk bilangan prima atau tidak.
+Kata palindrome adalah sebuah kata yang jika dibalik, tetap sama. Contoh, 'katak' dibalik tetaplah 'katak'. Buatlah sebuah program untuk mendeteksi sebuah string merupakan palindrom atau tidak!
 
 #### Sample Test Cases
 ```
-Input: 3
-Output: Bilangan Prima
+Input: katak
+Output: Palindrom
 
-Input: 7
-Output: Bilangan Prima
+Input: civic
+Output: Palindrom
 
-Input: 10
-Output: Bukan Bilangan Prima
+Input: mister
+Output: Bukan palindrom
 ```
 
 #### Code
@@ -154,21 +154,19 @@ func main() {
 }
 ```
 
+## Challenge 6 - Play with asterik
 
-## Challenge 6 - Palindrom
-
-Kata palindrome adalah sebuah kata yang jika dibalik, tetap sama. Contoh, 'katak' dibalik tetaplah 'katak'. Buatlah sebuah program untuk mendeteksi sebuah string merupakan palindrom atau tidak!
+Buatlah sebuah program untuk menggenerate segitiga asterik seperti dibawah ini!
 
 #### Sample Test Cases
 ```
-Input: katak
-Output: Palindrom
-
-Input: civic
-Output: Palindrom
-
-Input: mister
-Output: Bukan palindrom
+Input: 5
+Output:
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
 ```
 
 #### Code
