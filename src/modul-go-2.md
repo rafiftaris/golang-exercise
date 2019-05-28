@@ -164,30 +164,17 @@ func main() {
 }
 ```
 
-## Challenge 6 - Next Palindrom Angka (Bonus)
+## Challenge 6 - Find Majority Element (Bonus)
 
-Diberikan sebuah program yang menerima sebuah array angka. Program akan menghasilkan output modus dari array tersebut. Modus adalah angka dari sebuah deret yang paling banyak atau paling sering muncul. Contoh, modus dari [10, 4, 5, 2, 4] adalah 4.
-
-Jika modus tidak ditemukan, program akan menghasilkan output -1, apabila ditemukan lebih dari dua nilai modus, tampilkan nilai modus yang paling pertama muncul (dihitung dari kiri ke kanan).
-
-Dan apabila modus hanya memiliki 1 nilai yang sama maka program akan menghasilkan output -1, contohnya (1, 1, 1) adalah -1.
+Write a program which takes an array and prints the majority element (if it exists), otherwise prints “No Majority Element”. A majority element in an array A[] of size n is an element that appears more than n/2 times (and hence there is at most one such element).
 
 #### Sample Test Cases
 ```
-Input: []int{10, 4, 5, 2, 4}
-Output: 4
+Input : []int{3, 3, 4, 2, 4, 4, 2, 4, 4}
+Output : 4 
 
-Input: []int{5, 10, 10, 6, 5}
-Output: 5
-
-Input: []int{1, 2, 3, 3, 4, 5}
-Output: 3
-
-Input: []int{10, 3, 1, 2, 5}
-Output: -1
-
-Input: []int{5, 5, 5, 5, 5}
-Output: -1
+Input : []int{3, 3, 4, 2, 4, 4, 2, 4}
+Output : No Majority Element
 ```
 
 #### Code
