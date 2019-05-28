@@ -96,7 +96,46 @@ func main() {
 }
 ```
 
-## Challenge 4 - Prima Segi Empat
+## Challenge 4 - Statistik
+
+Diberikan sebuah program yang menerima sebuah array angka. Program akan menghasilkan output modus dari array tersebut. Modus adalah angka dari sebuah deret yang paling banyak atau paling sering muncul. Contoh, modus dari [10, 4, 5, 2, 4] adalah 4.
+
+Jika modus tidak ditemukan, program akan menghasilkan output -1, apabila ditemukan lebih dari dua nilai modus, tampilkan nilai modus yang paling pertama muncul (dihitung dari kiri ke kanan).
+
+Dan apabila modus hanya memiliki 1 nilai yang sama maka program akan menghasilkan output -1, contohnya (1, 1, 1) adalah -1.
+
+#### Sample Test Cases
+```
+Input: []int{10, 4, 5, 2, 4}
+Output: 4
+
+Input: []int{5, 10, 10, 6, 5}
+Output: 5
+
+Input: []int{1, 2, 3, 3, 4, 5}
+Output: 3
+
+Input: []int{10, 3, 1, 2, 5}
+Output: -1
+
+Input: []int{5, 5, 5, 5, 5}
+Output: -1
+```
+
+#### Code
+```golang
+package main
+
+import(
+  "fmt"
+)
+
+func main() {
+  // kode disini
+}
+```
+
+## Challenge 5 - How Many Gift
 
 Toni menggambar sebuah segitiga yang alasnya berukuran A cm dan tingginya berukuran T cm. Ia ingin menghitung luas dari segitiga tersebut, tetapi ia lupa caranya, bantulah di Toni!
 
@@ -123,7 +162,7 @@ func main() {
 }
 ```
 
-## Challenge 5 - Statistik
+## Challenge 6 - Prima Segi Empat (BONUS)
 
 Diberikan sebuah program yang menerima sebuah array angka. Program akan menghasilkan output modus dari array tersebut. Modus adalah angka dari sebuah deret yang paling banyak atau paling sering muncul. Contoh, modus dari [10, 4, 5, 2, 4] adalah 4.
 
