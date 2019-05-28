@@ -5,7 +5,7 @@
 ### Kurikulum Silabus
 ### Minggu ke-1
 - [Alta Go 1 # Dasar Pemrograman Golang](./src/modul-go-1.md)
-- [Alta Go 2 # Tipe Data Komposit ](./src/modul-go-2.md)
+- [Alta Go 2 # Array, Slice & Map](./src/modul-go-2.md)
 ### Minggu ke-2
 - [Alta Go 3 # Topik](./src/modul-go-3.md)
 - [Alta Go 4 # Topik](./src/modul-go-4.md)

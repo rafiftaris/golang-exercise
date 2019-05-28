@@ -181,3 +181,32 @@ func main() {
   // kode disini
 }
 ```
+
+
+## Challenge 7 - Play with asterik (BONUS)
+
+Buatlah sebuah program untuk menggenerate segitiga asterik seperti dibawah ini!
+
+#### Sample Test Cases
+```
+Input: 5
+Output:
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+```
+
+#### Code
+```golang
+package main
+
+import(
+  "fmt"
+)
+
+func main() {
+  // kode disini
+}
+```
