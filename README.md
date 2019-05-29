@@ -1,6 +1,19 @@
-## Guidebook: Alterra Academy Kelas Golang
+## Alterra Academy Kelas Golang
 
 ![Header](assets/banner.png)
+
+Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berbagai modul kegiatan inti yang dapat kamu baca. Ikuti tiap tahap-tahap yang yang telah ditentukan.
+
+### Guide
+
+Tugas wajib dikumpulkan setiap hari setelah sesi materi diberikan. Apabila terdapat hal-hal yang kurang jelas, kamu bisa meminta bantuan kepada Mentor.
+
+#### Pada siapa saya meminta bantuan?
+- Mentor melalui bertanya langsung atau melalui Group.
+- Ekplorasi internet, bertemanlah dengan StackOverflow.
+
+#### Waktu pembelajaran
+- Setiap hari Kamis & Jumat, pukul 19.00 - 23.00
 
 ### Kurikulum Silabus
 ### Minggu ke-1

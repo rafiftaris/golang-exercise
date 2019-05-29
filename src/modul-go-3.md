@@ -6,19 +6,21 @@
 
 ## Challenge 1 - Bilangan Prima
 
-Diberikan sebuah program yang menerima sebuah array angka. Program akan menampilkan mean dari array angka tersebut.
-Mean adalah angka rata-rata dari deret bilangan tersebut. Contoh, mean dari [1, 2, 3, 4, 5] adalah 3. Kita perlu kemudian melakukan pembulatan angka dari hasil mean yang didapatkan.
+Dalam matematika, bilangan prima adalah bilangan asli yang lebih besar dari angka 1, yang faktor pembaginya adalah 1 dan bilangan itu sendiri. 2 dan 3 adalah bilangan prima. 4 bukan bilangan prima karena 4 bisa dibagi 2. Kamu diminta untuk membuat fungsi untuk menentukan bahwa sebuah bilangan termasuk bilangan prima atau tidak.
 
 #### Sample Test Cases
 ```
-Input: []int{1, 2, 3, 4, 5}
-Output: 3
+Input: 3
+Output: Bilangan Prima
 
-Input: []int{3, 5, 7, 5, 3}
-Output: 5
+Input: 5
+Output: Bilangan Prima
 
-Input: []int{6, 5, 4, 7, 3}
-Output: 5
+Input: 6
+Output: Bukan Bilangan Prima
+
+Input: 7
+Output: Bilangan Prima
 ```
 
 #### Code
@@ -29,6 +31,10 @@ import(
   "fmt"
 )
 
+func Prima(N int) string {
+
+}
+
 func main() {
   // input
 }
@@ -36,23 +42,14 @@ func main() {
 
 ## Challenge 2 - Two Sum
 
-Diberikan sebuah array bertipe angka, program akan mencetak median dari deret angka tersebut. Median adalah nilai tengah dari sebuah deret bilangan. Contoh, median atau dari [1, 2, 3, 4, 5] adalah 3 yang merupakan nilai yang ada di posisi tengah dari deret tersebut.
+Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-Median dari deret yang berjumlah genap adalah rata-rata dari dua nilai tengah. Contoh, median dari [1, 2, 3, 4] adalah 2.5, karena (2 + 3 / 2). Pada kasus ini nilai dari angka tidak perlu diurutkan.
-
-Catatan: pada kasus ini kamu tidak perlu melakukan sorting terhadap elemen seperti konsep matematika.
-
+For example, if the array is [3, 5, 2, -4, 8, 11] and the sum is 7, your program should return [[11, -4], [2, 5]], because 11 + -4 = 7 and 2 + 5 = 7.
 
 #### Sample Test Cases
 ```
-Input: []int{1, 2, 3, 4, 5}
-Output: 3
-
-Input: []int{1, 3, 4, 10, 12, 13}
-Output: 7
-
-Input: []int{7, 7, 8, 8}
-Output: 7.5
+Input: []int{3, 5, 2, -4, 8, 11}, 7
+Output: [[11 -4] [2, 5]]
 ```
 
 #### Code
@@ -68,7 +65,7 @@ func main() {
 }
 ```
 
-## Challenge 3 - Encode
+## Challenge 3 - Remove Set a Char From a String
 
 The first thing to notice is that we’ll need to loop through the entire string S and loop through the array of characters because we’ll need to find the characters to actually remove from the string. There are two ways to construct the loops:
 
@@ -98,28 +95,18 @@ func main() {
 
 ## Challenge 4 - Statistik
 
-Diberikan sebuah program yang menerima sebuah array angka. Program akan menghasilkan output modus dari array tersebut. Modus adalah angka dari sebuah deret yang paling banyak atau paling sering muncul. Contoh, modus dari [10, 4, 5, 2, 4] adalah 4.
-
-Jika modus tidak ditemukan, program akan menghasilkan output -1, apabila ditemukan lebih dari dua nilai modus, tampilkan nilai modus yang paling pertama muncul (dihitung dari kiri ke kanan).
-
-Dan apabila modus hanya memiliki 1 nilai yang sama maka program akan menghasilkan output -1, contohnya (1, 1, 1) adalah -1.
+Tersedia 3 input:
+1) kata (2 kemungkinan: 'min' atau 'max')
+2) array berisi angka-angka positif
+3) array berisi angka-angka positif
 
 #### Sample Test Cases
 ```
-Input: []int{10, 4, 5, 2, 4}
-Output: 4
+Input: "max", []int{6, 2, 4, 10, 8, 2}, []int{4, 7, 9, 19}
+Output: 10, 19
 
-Input: []int{5, 10, 10, 6, 5}
-Output: 5
-
-Input: []int{1, 2, 3, 3, 4, 5}
-Output: 3
-
-Input: []int{10, 3, 1, 2, 5}
-Output: -1
-
-Input: []int{5, 5, 5, 5, 5}
-Output: -1
+Input: "min", []int{5, 11, 18, 6}, []int{3, 9, 10, 13}
+Output: 5 , 13
 ```
 
 #### Code
