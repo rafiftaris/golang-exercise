@@ -36,7 +36,7 @@ func main() {
 }
 ```
 
-## Challenge 2 - Ganjil dan Genap
+### Challenge 2 - Ganjil dan Genap
 
 Sebuah bilangan bulat adalah ganjil jika bilangan tersebut 'tidak habis dibagi' dengan dua. Sebagai contoh, 6 adalah genap karena tidak terdapat sisa ketika dibagi dengan 2. Sebaliknya, 3, 5, 7, 21 terdapat sisa 1 ketika dibagi dengan 2. Contoh dari bilangan genap termasuk −4, 0, 8, dan 1738.
 
@@ -62,7 +62,7 @@ func main() {
 }
 ```
 
-## Challenge 3 - Faktor Bilangan
+### Challenge 3 - Faktor Bilangan
 
 Faktor suatu bilangan adalah suatu bilangan yang dapat habis membagi bilangan tersebut. Tugas anda adalah membuat sebuah program untuk mencetak faktor sebuah bilangan.
 
@@ -98,7 +98,7 @@ func main() {
 }
 ```
 
-## Challenge 4 - Bilangan Prima
+### Challenge 4 - Bilangan Prima
 
 Dalam matematika, bilangan prima adalah bilangan asli yang lebih besar dari angka 1, yang faktor pembaginya adalah 1 dan bilangan itu sendiri. 2 dan 3 adalah bilangan prima. 4 bukan bilangan prima karena 4 bisa dibagi 2. Kamu diminta untuk membuat fungsi untuk menentukan bahwa sebuah bilangan termasuk bilangan prima atau tidak.
 
@@ -127,7 +127,7 @@ func main() {
 }
 ```
 
-## Challenge 5 - Palindrom
+### Challenge 5 - Palindrom
 
 Kata palindrome adalah sebuah kata yang jika dibalik, tetap sama. Contoh, 'katak' dibalik tetaplah 'katak'. Buatlah sebuah program untuk mendeteksi sebuah string merupakan palindrom atau tidak!
 
@@ -156,7 +156,7 @@ func main() {
 }
 ```
 
-## Challenge 6 - Play with asterik (BONUS)
+### Challenge 6 - Play with asterik (BONUS)
 
 Buatlah sebuah program untuk menggenerate segitiga asterik seperti dibawah ini!
 
