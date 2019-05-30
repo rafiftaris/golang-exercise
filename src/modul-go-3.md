@@ -40,20 +40,29 @@ func Prima(N int) string {
 }
 
 func main() {
-  // input
+  fmt.Println(Prima(3)) // Bilangan Prima
+  fmt.Println(Prima(5)) // Bilangan Prima
+  fmt.Println(Prima(6)) // Bukan Bilangan Prima
+  fmt.Println(Prima(7)) // Bilangan Prima
 }
 ```
 
 ### Challenge 2 - Two Sum
 
-Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Anda akan diberikan sebuah Array bilangan integer (Nums), tugas anda adalah menemukan pasangan nilai yang jika dijumlah akan menghasilkan nilai Sum. Pada kasus ini anda tidak dapat menggunakan elemen yang sama untuk dua kali.
 
-For example, if the array is [3, 5, 2, -4, 8, 11] and the sum is 7, your program should return [[11, -4], [2, 5]], because 11 + -4 = 7 and 2 + 5 = 7.
+Misalnya, jika Nums adalah [3, 5, 2, -4, 8, 11] dan (Sum) jumlahnya adalah 7, program Anda harus mengembalikan [[11, -4], [2, 5]], karena 11 + - 4 = 7 dan 2 + 5 = 7.
 
 #### Sample Test Cases
 ```
-Input: []int{3, 5, 2, -4, 8, 11}, 7
+Input: Nums = []int{2, 7, 11, 15}, Sum = 9
+Output: [[2 9]]
+
+Input: Nums = []int{3, 5, 2, -4, 8, 11}, Sum = 7
 Output: [[11 -4] [2, 5]]
+
+Input: Nums = []int{1, 2, 4, 6, 10, 5, 13, 8, 14, 5}, Sum = 10
+Output: [[2 8] [4 6] [5 5]]
 ```
 
 #### Code
@@ -63,6 +72,12 @@ package main
 import(
   "fmt"
 )
+
+func 
+
+func TwoSum(Nums []int, Sum) [][]int {
+
+}
 
 func main() {
   // kode disini
