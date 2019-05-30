@@ -10,7 +10,7 @@
 
 ### ✏️ Challenge
 
-### Challenge 1 - Mean .
+### Challenge 1 - Mean
 
 Diberikan sebuah program yang menerima sebuah array angka. Program akan menampilkan mean dari array angka tersebut.
 Mean adalah angka rata-rata dari deret bilangan tersebut. Contoh, mean dari [1, 2, 3, 4, 5] adalah 3. Kita perlu kemudian melakukan pembulatan angka dari hasil mean yang didapatkan.

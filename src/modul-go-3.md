@@ -85,9 +85,10 @@ func main() {
 ### Challenge 3 - Statistik
 
 Program statistik adalah program yang menerima 3 input:
-1) kata (2 kemungkinan: 'min' atau 'max')
-2) array 1 berisi angka-angka positif
-3) array 2 berisi angka-angka positif
+1. kata (2 kemungkinan: 'min' atau 'max')
+2. array 1 berisi angka-angka positif
+3. array 2 berisi angka-angka positif
+
 Buatlah sebuah program untuk menampilkan nilai maksimal apabila kata = "max" atau minimal apabila kata = "min" dari inputan dua array 1 dan 2!
 
 #### Sample Test Cases
