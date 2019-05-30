@@ -1,5 +1,7 @@
 ## Alta Go 1 # Dasar Pemrograman Golang
 
+### [🏠 Home](./src/readme.md)
+
 ### 🎯 Objektif
 
 - Menerapkan variable dan tipe data
