@@ -6,7 +6,7 @@
 
 ### ✏️ Challenge
 
-## Challenge 1 - Bilangan Prima
+### Challenge 1 - Bilangan Prima
 
 Dalam matematika, bilangan prima adalah bilangan asli yang lebih besar dari angka 1, yang faktor pembaginya adalah 1 dan bilangan itu sendiri. 2 dan 3 adalah bilangan prima. 4 bukan bilangan prima karena 4 bisa dibagi 2. Kamu diminta untuk membuat fungsi untuk menentukan bahwa sebuah bilangan termasuk bilangan prima atau tidak.
 
@@ -42,7 +42,7 @@ func main() {
 }
 ```
 
-## Challenge 2 - Two Sum
+### Challenge 2 - Two Sum
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
@@ -67,7 +67,7 @@ func main() {
 }
 ```
 
-## Challenge 3 - Remove Set a Char From a String
+### Challenge 3 - Remove Set a Char From a String
 
 The first thing to notice is that we’ll need to loop through the entire string S and loop through the array of characters because we’ll need to find the characters to actually remove from the string. There are two ways to construct the loops:
 
@@ -95,7 +95,7 @@ func main() {
 }
 ```
 
-## Challenge 4 - Statistik
+### Challenge 4 - Statistik
 
 Tersedia 3 input:
 1) kata (2 kemungkinan: 'min' atau 'max')
@@ -124,7 +124,7 @@ func main() {
 }
 ```
 
-## Challenge 5 - How Many Gift
+### Challenge 5 - How Many Gift
 
 Toni menggambar sebuah segitiga yang alasnya berukuran A cm dan tingginya berukuran T cm. Ia ingin menghitung luas dari segitiga tersebut, tetapi ia lupa caranya, bantulah di Toni!
 
@@ -151,7 +151,7 @@ func main() {
 }
 ```
 
-## Challenge 6 - Prima Segi Empat (BONUS)
+### Challenge 6 - Prima Segi Empat (BONUS)
 
 Diberikan sebuah program yang menerima sebuah array angka. Program akan menghasilkan output modus dari array tersebut. Modus adalah angka dari sebuah deret yang paling banyak atau paling sering muncul. Contoh, modus dari [10, 4, 5, 2, 4] adalah 4.
 

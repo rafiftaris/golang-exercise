@@ -14,17 +14,17 @@ Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berba
 - [Alta Go 1 # Dasar Pemrograman Golang](./src/modul-go-1.md)
 - [Alta Go 2 # Array, Slice & Map](./src/modul-go-2.md)
 #### Minggu ke-2
-- [Alta Go 3 # Topik](./src/modul-go-3.md)
-- [Alta Go 4 # Topik](./src/modul-go-4.md)
+- [Alta Go 3 # Function](./src/modul-go-3.md)
+- [Alta Go 4 # Struct, Method & Interface](./src/modul-go-4.md)
 #### Minggu ke-3
-- [Alta Go 5 # Topik](./src/modul-go-5.md)
-- [Alta Go 6 # Topik](./src/modul-go-6.md)
+- [Alta Go 5 # Versioning Control Git](./src/modul-go-5.md)
+- [Alta Go 6 # Skema Database](./src/modul-go-6.md)
 #### Minggu ke-4
-- [Alta Go 7 # Topik](./src/modul-go-7.md)
-- [Alta Go 8 # Topik](./src/modul-go-8.md)
+- [Alta Go 7 # Data Definition Language](./src/modul-go-7.md)
+- [Alta Go 8 # Data Manipulation Language I](./src/modul-go-8.md)
 #### Minggu ke-5
-- [Alta Go 9 # Topik](./src/modul-go-9.md)
-- [Alta Go 10 # Topik](./src/modul-go-10.md)
+- [Alta Go 9 # Data Manipulation Language II](./src/modul-go-9.md)
+- [Alta Go 10 # Introduction to Echo Framework](./src/modul-go-10.md)
 #### Minggu ke-6
 - [Alta Go 11 # Topik](./src/modul-go-11.md)
 - [Alta Go 12 # Topik](./src/modul-go-12.md)
@@ -33,4 +33,4 @@ Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berba
 - [Alta Go 14 # Topik](./src/modul-go-14.md)
 #### Minggu ke-8
 - [Alta Go 15 # Topik](./src/modul-go-15.md)
-- [Alta Go 16 # Topik](./src/modul-go-16.md)
+- [Alta Go 16 # Hack Day](./src/modul-go-16.md)
