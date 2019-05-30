@@ -1,6 +1,6 @@
 ## Alta Go 1 # Dasar Pemrograman Golang
 
-### 🏠 [back to home](./../readme.md)
+### 🏠 [back to home](././readme.md)
 
 ### 🎯 Objektif
 
