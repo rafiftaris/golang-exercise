@@ -80,10 +80,10 @@ Buatlah sebuah merubah string yang diberikan menjadi sebuah Map baru. Program me
 
 #### Sample Test Cases
 ```
-Input: "name,age", "Aang,112"
+Input: keys = "name,age", values = "Aang,112"
 Output: map[name:Dimitri phoneNumber:+666123654]
 
-Input: "firstName,lastName,nationality", "Sergei,Dragunov,Russia"
+Input: keys = "firstName,lastName,nationality", values = "Sergei,Dragunov,Russia"
 Output: map[firstName:Sergei lastName:Dragunov nationality:Russia]
 ```
 
@@ -103,16 +103,11 @@ func main() {
 
 ### Challenge 4 - Remove Set of Character From a String
 
-The first thing to notice is that we’ll need to loop through the entire string S and loop through the array of characters because we’ll need to find the characters to actually remove from the string. There are two ways to construct the loops:
-
-1. Loop through the array of characters and for each chracter, find all of the occurences in S and remove them.
-2. Loop through the string S and if the current character exists in the array of characters somewhere, remove it.
-
-We’re going to go with the second option because we can improve the algorithm by actually storing all of the characters in the array in a hash table. This will allow us to loop through the string S and determine if the current character needs to be removed by checking if it exists in the hash table. Remember from before, checking if an element exists in a hash table is done in constant time so the running time of our algorithm will be O(n) where n is the length of the string S plus some preprocessing where we loop through the array of characters and store them in a hash table.
+Kamu akan diiberi sebuah String dan Array of Char. Buatlah sebuah program untuk menghapus Char dalam String, Char yang perlu dihapus adalah Char yang muncul dalam Array of Char.
 
 #### Sample Test Cases
 ```
-Input: []string{"h", "e", "w", "o"}, "hello world"
+Input: String = "hello world", Char = []byte{'h', 'e', 'w', 'o'}
 Output: "ll rld"
 ```
 
@@ -135,7 +130,7 @@ Diberikan sebuah program yang menerima sebuah array angka. Program akan menghasi
 
 Jika modus tidak ditemukan, program akan menghasilkan output -1, apabila ditemukan lebih dari dua nilai modus, tampilkan nilai modus yang paling pertama muncul (dihitung dari kiri ke kanan).
 
-Dan apabila modus hanya memiliki 1 nilai yang sama maka program akan menghasilkan output -1, contohnya (1, 1, 1) adalah -1.
+Dan apabila modus hanya memiliki 1 nilai yang sama maka program akan menghasilkan output -1, contohnya [1, 1, 1] adalah -1.
 
 #### Sample Test Cases
 ```
@@ -168,9 +163,9 @@ func main() {
 }
 ```
 
-### Challenge 6 - Find Majority Element (Bonus)
+### Challenge 6 - Find Majority Element (BONUS)
 
-Write a program which takes an array and prints the majority element (if it exists), otherwise prints “No Majority Element”. A majority element in an array A[] of size n is an element that appears more than n/2 times (and hence there is at most one such element).
+Buatlah sebuah program yang menamukan elemen mayoritas dari inputan sebuah Array. Elemen mayoritas adalah elemen yang muncul lebih dari n / 2 kali (anda hanya perlu mengeluarkan satu elemen), namun jika tidak ditemukan maka ceta "Tidak Ada Elemen Mayoritas".
 
 #### Sample Test Cases
 ```
