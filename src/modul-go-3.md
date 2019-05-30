@@ -1,5 +1,7 @@
 ## Alta Go 3 # Function
 
+### 🏠 [back to home](./src/readme.md)
+
 ### 🎯 Objektif
 
 - Menerapkan Function

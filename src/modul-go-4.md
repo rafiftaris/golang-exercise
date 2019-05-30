@@ -1,5 +1,7 @@
 ## Alta Go 3 # Struct & Method
 
+### 🏠 [back to home](./src/readme.md)
+
 ### 🎯 Objektif
 
 - Menerapkan Struct
