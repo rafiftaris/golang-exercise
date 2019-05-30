@@ -1,4 +1,4 @@
-## Alta Go 2 # Array, Slice & Map
+## Modul 2 # Array, Slice & Map
 
 ### 🏠 [back to home](https://github.com/alterra-academy/golang-class)
 

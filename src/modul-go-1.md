@@ -1,4 +1,4 @@
-## Alta Go 1 # Dasar Pemrograman Golang
+## Modul 1 # Dasar Pemrograman Golang
 
 ### 🏠 [back to home](https://github.com/alterra-academy/golang-class)
 

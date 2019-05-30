@@ -1,4 +1,4 @@
-## Alta Go 3 # Struct & Method
+## Modul 4 # Struct & Method
 
 ### 🏠 [back to home](https://github.com/alterra-academy/golang-class)
 

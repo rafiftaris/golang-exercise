@@ -1,4 +1,4 @@
-## Alta Go 3 # Function
+## Modul 3 # Function
 
 ### 🏠 [back to home](https://github.com/alterra-academy/golang-class)
 
