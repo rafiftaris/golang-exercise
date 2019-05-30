@@ -2,7 +2,7 @@
 
 ![Header](assets/banner.png)
 
-### 🚢 Guide
+### 📢 Guide
 
 Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berbagai modul kegiatan inti yang dapat kamu baca. Ikuti tiap tahap-tahap yang yang telah ditentukan. Tugas-tugas wajib dikumpulkan setiap hari setelah sesi materi diberikan. Apabila terdapat hal-hal yang kurang jelas, kamu bisa meminta bantuan kepada Mentor, ekplorasilah di internet dan bertemanlah dengan StackOverflow.
 
@@ -26,7 +26,7 @@ Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berba
 - [Alta Go 9 # Data Manipulation Language II](./src/modul-go-9.md)
 - [Alta Go 10 # Introduction to Echo Framework](./src/modul-go-10.md)
 #### Minggu ke-6
-- [Alta Go 11 # ORM](./src/modul-go-11.md)
+- [Alta Go 11 # Object Relational Mapper](./src/modul-go-11.md)
 - [Alta Go 12 # Log, Middleware, Error Handling & Structuring](./src/modul-go-12.md)
 #### Minggu ke-7
 - [Alta Go 13 # Unit Testing](./src/modul-go-13.md)
