@@ -128,9 +128,9 @@ Pada function HowManyGifts(maxBudget, gifts). Parameter pertama adalah budget Ra
 ```
 Input: maxBudget = 25000, gifts = []int{20000, 5000, 10000, 6000, 4000}
 Output: 4
-
-* Output 4, karena bisa membeli oleh-oleh dengan harga 5000, 10000, 6000, 4000
 ```
+
+Output adalah 4, karena bisa membeli oleh-oleh dengan harga 5000, 10000, 6000, 4000
 
 #### Code
 ```golang
