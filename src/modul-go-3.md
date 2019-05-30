@@ -73,7 +73,7 @@ import(
   "fmt"
 )
 
-func TwoSum(Nums []int, Sum) [][]int {
+func TwoSum(Nums []int, Sum int) [][]int {
 
 }
 
