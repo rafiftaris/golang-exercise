@@ -165,7 +165,7 @@ func main() {
 
 ### Challenge 6 - Find Majority Element (BONUS)
 
-Buatlah sebuah program yang menamukan elemen mayoritas dari inputan sebuah Array. Elemen mayoritas adalah elemen yang muncul lebih dari n / 2 kali (anda hanya perlu mengeluarkan satu elemen), namun jika tidak ditemukan maka ceta "Tidak Ada Elemen Mayoritas".
+Buatlah sebuah program yang menamukan elemen mayoritas dari inputan sebuah Array. Elemen mayoritas adalah elemen yang muncul lebih dari n / 2 kali (anda hanya perlu mengeluarkan satu elemen), namun jika tidak ditemukan maka ceta "Tidak Ditemukan".
 
 #### Sample Test Cases
 ```
@@ -173,7 +173,7 @@ Input : []int{3, 3, 4, 2, 4, 4, 2, 4, 4}
 Output : 4 
 
 Input : []int{3, 3, 4, 2, 4, 4, 2, 4}
-Output : No Majority Element
+Output : Tidak Ditemukan
 ```
 
 #### Code
