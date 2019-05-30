@@ -1,8 +1,10 @@
 ## Alta Go 3 # Function
 
-## Objektif
+### 🎯 Objektif
 
 - Menerapkan Function
+
+### ✏️ Challenge
 
 ## Challenge 1 - Bilangan Prima
 

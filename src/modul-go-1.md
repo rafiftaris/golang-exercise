@@ -1,13 +1,15 @@
 ## Alta Go 1 # Dasar Pemrograman Golang
 
-## Objektif
+### 🎯 Objektif
 
 - Menerapkan variable dan tipe data
 - Menerapkan standar input dan output
 - Menerapkan looping
 - Menerapkan branching
 
-## Challenge 1 - Luas Segitiga
+### ✏️ Challenge
+
+### Challenge 1 - Luas Segitiga
 
 Toni menggambar sebuah segitiga yang alasnya berukuran A cm dan tingginya berukuran T cm. Ia ingin menghitung luas dari segitiga tersebut, tetapi ia lupa caranya, bantulah di Toni!
 
