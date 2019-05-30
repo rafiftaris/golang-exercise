@@ -1,6 +1,6 @@
 ## Alta Go 3 # Function
 
-### 🏠 [back to home](./src/readme.md)
+### 🏠 [back to home](https://github.com/alterra-academy/golang-class)
 
 ### 🎯 Objektif
 
