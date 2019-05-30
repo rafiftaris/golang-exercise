@@ -108,7 +108,7 @@ import(
   "fmt"
 )
 
-func Statistik(kata string, array1 []int, array2 []int) (result1 int, result2 int) {
+func Statistik(kata string, array1 []int, array2 []int) (int, int) {
 
 }
 
