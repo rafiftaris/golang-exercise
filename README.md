@@ -2,7 +2,7 @@
 
 ![Header](assets/banner.png)
 
-### 📢 Guide
+### 📢 Petunjuk
 
 Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berbagai modul kegiatan inti yang dapat kamu baca. Ikuti tiap tahap-tahap yang yang telah ditentukan. Tugas-tugas wajib dikumpulkan setiap hari setelah sesi materi diberikan. Apabila terdapat hal-hal yang kurang jelas, kamu bisa meminta bantuan kepada Mentor, ekplorasilah di internet dan bertemanlah dengan StackOverflow.
 
