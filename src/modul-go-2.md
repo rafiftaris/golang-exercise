@@ -8,7 +8,7 @@
 
 ### ✏️ Challenge
 
-## Challenge 1 - Mean
+### Challenge 1 - Mean .
 
 Diberikan sebuah program yang menerima sebuah array angka. Program akan menampilkan mean dari array angka tersebut.
 Mean adalah angka rata-rata dari deret bilangan tersebut. Contoh, mean dari [1, 2, 3, 4, 5] adalah 3. Kita perlu kemudian melakukan pembulatan angka dari hasil mean yang didapatkan.
@@ -38,7 +38,7 @@ func main() {
 }
 ```
 
-## Challenge 2 - Median
+### Challenge 2 - Median
 
 Diberikan sebuah array bertipe angka, program akan mencetak median dari deret angka tersebut. Median adalah nilai tengah dari sebuah deret bilangan. Contoh, median atau dari [1, 2, 3, 4, 5] adalah 3 yang merupakan nilai yang ada di posisi tengah dari deret tersebut.
 
@@ -72,7 +72,7 @@ func main() {
 }
 ```
 
-## Challenge 3 - CSV to Map
+### Challenge 3 - CSV to Map
 
 Buatlah sebuah merubah string yang diberikan menjadi sebuah Map baru. Program menerima 2 input yaitu keys dan values yang merupakan sebuah CSV (Comma Separated Values) Keys & values di dalam Map baru nantinya akan diambil dari kedua input yang diberikan.
 
@@ -99,7 +99,7 @@ func main() {
 }
 ```
 
-## Challenge 4 - Remove Set of Character From a String
+### Challenge 4 - Remove Set of Character From a String
 
 The first thing to notice is that we’ll need to loop through the entire string S and loop through the array of characters because we’ll need to find the characters to actually remove from the string. There are two ways to construct the loops:
 
@@ -127,7 +127,7 @@ func main() {
 }
 ```
 
-## Challenge 5 - Modus
+### Challenge 5 - Modus
 
 Diberikan sebuah program yang menerima sebuah array angka. Program akan menghasilkan output modus dari array tersebut. Modus adalah angka dari sebuah deret yang paling banyak atau paling sering muncul. Contoh, modus dari [10, 4, 5, 2, 4] adalah 4.
 
@@ -166,7 +166,7 @@ func main() {
 }
 ```
 
-## Challenge 6 - Find Majority Element (Bonus)
+### Challenge 6 - Find Majority Element (Bonus)
 
 Write a program which takes an array and prints the majority element (if it exists), otherwise prints “No Majority Element”. A majority element in an array A[] of size n is an element that appears more than n/2 times (and hence there is at most one such element).
 
