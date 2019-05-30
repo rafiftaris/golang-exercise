@@ -1,10 +1,12 @@
 ## Alta Go 2 # Array, Slice & Map
 
-## Objektif
+### 🎯 Objektif
 
 - Menerapkan Array
 - Menerapkan Slice
 - Menerapkan Map
+
+### ✏️ Challenge
 
 ## Challenge 1 - Mean
 
