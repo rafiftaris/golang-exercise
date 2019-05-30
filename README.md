@@ -26,11 +26,11 @@ Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berba
 - [Alta Go 9 # Data Manipulation Language II](./src/modul-go-9.md)
 - [Alta Go 10 # Introduction to Echo Framework](./src/modul-go-10.md)
 #### Minggu ke-6
-- [Alta Go 11 # Topik](./src/modul-go-11.md)
-- [Alta Go 12 # Topik](./src/modul-go-12.md)
+- [Alta Go 11 # ORM](./src/modul-go-11.md)
+- [Alta Go 12 # Log, Middleware, Error Handling & Structuring](./src/modul-go-12.md)
 #### Minggu ke-7
-- [Alta Go 13 # Topik](./src/modul-go-13.md)
-- [Alta Go 14 # Topik](./src/modul-go-14.md)
+- [Alta Go 13 # Unit Testing](./src/modul-go-13.md)
+- [Alta Go 14 # RESTful Web API](./src/modul-go-14.md)
 #### Minggu ke-8
-- [Alta Go 15 # Topik](./src/modul-go-15.md)
+- [Alta Go 15 # JSON Web Token](./src/modul-go-15.md)
 - [Alta Go 16 # Hack Day](./src/modul-go-16.md)
