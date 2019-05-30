@@ -1,5 +1,7 @@
 ## Alta Go 2 # Array, Slice & Map
 
+### 🏠 [back to home](./src/readme.md)
+
 ### 🎯 Objektif
 
 - Menerapkan Array
