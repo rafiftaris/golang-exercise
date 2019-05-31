@@ -9,6 +9,9 @@ Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berba
 ### ⏰ Waktu pembelajaran
 - Setiap hari Kamis & Jumat, pukul 19.00 - 23.00
 
+### 🔑 Pra-syarat
+Sebelum kamu mempelajari dasar-dasar dalam pemrograman Golang, kamu wajib menyelesaikan video pengenalan Algoritma. Video ini akan mempermudah kamu untuk bisa menerima materi yang berkaitan dengan algoritma, logika dan penyelesaian masalah. [TONTON VIDEO](https://www.youtube.com/watch?v=bGcW9nQ8vEE&list=PL3WF_ooYwH1c1xD4vS4zs6tIA5qd9UmQt&index=2&t=0s)
+
 ### 📘 Kurikulum Silabus
 #### Minggu ke-1
 - [Modul 1 # Dasar Pemrograman Golang](./src/modul-go-1.md)
