@@ -7,7 +7,7 @@
 Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berbagai modul kegiatan inti yang dapat kamu baca. Ikuti tiap tahap-tahap yang yang telah ditentukan. Tugas-tugas wajib dikumpulkan setiap hari setelah sesi materi diberikan. Apabila terdapat hal-hal yang kurang jelas, kamu bisa meminta bantuan kepada Mentor, ekplorasilah di internet dan bertemanlah dengan StackOverflow.
 
 ### ⏰ Waktu pembelajaran
-- Setiap hari Kamis & Jumat, pukul 19.00 - 23.00
+- Setiap hari Kamis & Jumat, pukul 19.00 - 22.00
 
 ### 🔑 Pra-syarat
 Sebelum kamu mempelajari dasar-dasar dalam pemrograman Golang, kamu wajib menyelesaikan video pengenalan Algoritma. Video ini akan mempermudah kamu untuk bisa menerima materi yang berkaitan dengan algoritma, logika dan penyelesaian masalah. Kamu wajib menyimak materi mulai dari Part 1 sampai dengan Part 4. Jika terdapat materi yang belum difahami, jangan segan untuk memutar ulang video. [TONTON VIDEO](https://www.youtube.com/watch?v=bGcW9nQ8vEE&list=PL3WF_ooYwH1c1xD4vS4zs6tIA5qd9UmQt&index=2&t=0s)
