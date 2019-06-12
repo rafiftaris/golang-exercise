@@ -16,32 +16,21 @@ func strToIntArr(str string) (result []int){
 	return
 }
 
-func findModus(arr []int) (result int){
-	var max = 0
-	dict := make(map[int]int)
+func findMajority(arr []int) (result int,found bool) {
+	limit := len(arr)/2
+	count := make(map[int]int)
 	for _,each := range arr{
-		if dict[each] > 0{
-			dict[each]++
-		} else{
-			dict[each] = 1
+		if count[each] > 0 {
+			count[each]++
+		} else {
+				count[each] = 1
 		}
-		if dict[each] > max{
-			max = dict[each]
+		if count[each] > limit {
+			return each,true
 		}
 	}
+	return -1, false
 
-	found := false
-	for key,value := range dict{
-		if max == value{
-			if found{
-				return -1
-			} else {
-				found = true
-				result = key
-			}
-		}
-	}
-	return
 }
 
 func main()  {
@@ -51,8 +40,14 @@ func main()  {
 
 	arrNum := strToIntArr(numbers)
 
+	result, found := findMajority(arrNum)
+
 	fmt.Print("Output: ")
-	fmt.Println(findModus(arrNum))
+	if !found{
+		fmt.Println("Tidak Ditemukan")
+	} else {
+		fmt.Println(result)
+	}
 
 
 }
