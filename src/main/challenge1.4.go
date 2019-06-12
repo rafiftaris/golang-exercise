@@ -6,7 +6,7 @@ import (
 )
 
 func checkPrime(num int) bool{
-	for i:=2 ; i<int(math.Ceil(float64(num)/2)) ; i++{
+	for i:=2 ; i<=int(math.Ceil(float64(num)/2)) ; i++{
 		if num%i==0{
 			return false
 		}

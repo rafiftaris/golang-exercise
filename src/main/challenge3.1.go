@@ -6,7 +6,7 @@ import (
 )
 
 func Prima(N int) string{
-	for i:=2 ; i<int(math.Ceil(float64(N)/2)) ; i++{
+	for i:=2 ; i<=int(math.Ceil(float64(N)/2)) ; i++{
 		if N%i==0{
 			return "Bukan Bilangan Prima"
 		}
