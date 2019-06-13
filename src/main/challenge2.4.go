@@ -7,35 +7,35 @@ import (
 	"strings"
 )
 
-func removeChar(str string, chars []string) (result string){
+func removeChar(str string, chars []string) (result string) {
 	var exist bool
 	runes := []rune(str)
-	for _,each := range runes{
+	for _, each := range runes {
 		exist = false
-		for _,char := range chars{
-			if each == []rune(char)[0]{
+		for _, char := range chars {
+			if each == []rune(char)[0] {
 				exist = true
 				break
 			}
 		}
-		if !exist{
+		if !exist {
 			result += string(each)
 		}
 	}
 	return
 }
 
-func main()  {
+func main() {
 	var str, chars string
 	in := bufio.NewReader(os.Stdin)
+	fmt.Println("CONVERT CSV TO MAP")
 	fmt.Println("Input: ")
-	fmt.Print("String = ")
-	str,_ = in.ReadString('\n')
-	fmt.Print("Char = ")
-	chars,_ = in.ReadString('\n')
+	fmt.Print("String (one word only)= ")
+	str, _ = in.ReadString('\n')
+	fmt.Print("Char (ex:a,b,c,d)= ")
+	chars, _ = in.ReadString('\n')
 
-	arrChar := strings.Split(chars,",")
+	arrChar := strings.Split(chars, ",")
 
-	fmt.Println(removeChar(str,arrChar))
+	fmt.Println(removeChar(str, arrChar))
 }
-

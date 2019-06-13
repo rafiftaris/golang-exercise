@@ -6,16 +6,15 @@ import (
 	"strings"
 )
 
-func strToIntArr(str string) (result []int){
+func strToIntArr(str string) (result []int) {
 	var k int
-	arrStr := strings.Split(str,",")
-	for _,each := range arrStr{
-		k,_=strconv.Atoi(each)
-		result = append(result,k)
+	arrStr := strings.Split(str, ",")
+	for _, each := range arrStr {
+		k, _ = strconv.Atoi(each)
+		result = append(result, k)
 	}
 	return
 }
-
 
 // Merges left and right slice into newly created slice
 func Merge(left, right []int) []int {
@@ -53,9 +52,9 @@ func MergeSort(slice []int) []int {
 func HowManyGifts(maxBudget int, gifts []int) int {
 	var sum int
 	var count int
-	for _,gift := range gifts{
+	for _, gift := range gifts {
 		sum += gift
-		if sum > maxBudget{
+		if sum > maxBudget {
 			break
 		}
 		count++
@@ -66,6 +65,7 @@ func HowManyGifts(maxBudget int, gifts []int) int {
 func main() {
 	var maxBudget int
 	var gifts string
+	fmt.Println("COUNT HOW MANY GIFTS CAN BE BOUGHT")
 	fmt.Println("Input: ")
 	fmt.Print("maxBudget = ")
 	_, _ = fmt.Scanln(&maxBudget)
@@ -75,5 +75,5 @@ func main() {
 	sortedGifts := MergeSort(strToIntArr(gifts))
 
 	fmt.Print("Output: ")
-	fmt.Println(HowManyGifts(maxBudget,sortedGifts))
+	fmt.Println(HowManyGifts(maxBudget, sortedGifts))
 }

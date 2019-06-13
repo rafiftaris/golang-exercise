@@ -6,36 +6,37 @@ import (
 	"strings"
 )
 
-func strToIntArr(str string) (result []int){
+func strToIntArr(str string) (result []int) {
 	var k int
-	arrStr := strings.Split(str,",")
-	for _,each := range arrStr{
-		k,_=strconv.Atoi(each)
-		result = append(result,k)
+	arrStr := strings.Split(str, ",")
+	for _, each := range arrStr {
+		k, _ = strconv.Atoi(each)
+		result = append(result, k)
 	}
 	return
 }
 
-func findMajority(arr []int) (result int,found bool) {
-	limit := len(arr)/2
+func findMajority(arr []int) (result int, found bool) {
+	limit := len(arr) / 2
 	count := make(map[int]int)
-	for _,each := range arr{
+	for _, each := range arr {
 		if count[each] > 0 {
 			count[each]++
 		} else {
-				count[each] = 1
+			count[each] = 1
 		}
 		if count[each] > limit {
-			return each,true
+			return each, true
 		}
 	}
 	return -1, false
 
 }
 
-func main()  {
+func main() {
 	var numbers string
-	fmt.Print("Input: ")
+	fmt.Println("FIND MAJORITY ELEMENT OF AN ARRAY OF INTS")
+	fmt.Print("Input (ex:1,2,3,4,5): ")
 	_, _ = fmt.Scanln(&numbers)
 
 	arrNum := strToIntArr(numbers)
@@ -43,12 +44,10 @@ func main()  {
 	result, found := findMajority(arrNum)
 
 	fmt.Print("Output: ")
-	if !found{
+	if !found {
 		fmt.Println("Tidak Ditemukan")
 	} else {
 		fmt.Println(result)
 	}
 
-
 }
-
