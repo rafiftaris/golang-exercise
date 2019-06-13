@@ -1,11 +1,10 @@
-## Alta Go 4 # Struct & Method
+## Alta Go 7 # Data Manipulation Language
 
 ### 🏠 [back to home](https://github.com/alterra-academy/golang-class)
 
 ### 🎯 Objektif
 
-- Menerapkan Struct
-- Menerapkan Method
+- Mampu untuk menggunakan statement SQL DML (create, update, and delete)
 
 ### ✏️ Challenge
 

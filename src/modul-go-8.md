@@ -1,11 +1,10 @@
-## Alta Go 4 # Struct & Method
+## Alta Go 8 # Join, Union, Sub-query, Function
 
 ### 🏠 [back to home](https://github.com/alterra-academy/golang-class)
 
 ### 🎯 Objektif
 
-- Menerapkan Struct
-- Menerapkan Method
+- Mampu untuk menggunakan statement SQL DML (Join, Union, Sub-query, Function)
 
 ### ✏️ Challenge
 
