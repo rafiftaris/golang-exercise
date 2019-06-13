@@ -19,3 +19,4 @@ Setelah mempelajari cara mendesain database, kita akan mencoba untuk memodelkan 
 2. Sistem juga harus menyimpan data mengenai pelanggan yang akan membeli product tsb diantaranya : nama, alamat, tanggal lahir, status_user, gender, created_at, updated_at
 3. Sistem dapat mencatat transaksi pembelian dari pelanggan.
 4. Sistem dapat mencatat detail transaksi pembelian dari pelanggan
+5. Gunakan [dwar.io](https://www.draw.io/) atau [lucidchart](https://www.lucidchart.com) untuk membuat ERD.
