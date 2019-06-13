@@ -15,7 +15,7 @@ Silakan mempelajari terlebih dahulu lebih lanjut mengenai SQL dan MySQL. Sekaran
 
 1. Create database ata_online_shop.
 2. Dari schema Olshop yang telah kamu kerjakan di, Implementasikanlah menjadi table pada MySQL.
-    * Create table user.
+    a) Create table user.
     * Create table product, product type, operators, product description, payment_method.
     * Create table transaction, transaction detail.
 3. Create tabel kurir dengan filed id, name, created_at, updated_at.
