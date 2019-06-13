@@ -10,7 +10,10 @@ Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berba
 - Setiap hari Kamis & Jumat, pukul 19.00 - 22.00
 
 ### 🔑 Pra-syarat
-Sebelum kamu mempelajari dasar-dasar dalam pemrograman Golang, kamu wajib menyelesaikan video pengenalan Algoritma. Video ini akan mempermudah kamu untuk bisa menerima materi yang berkaitan dengan algoritma, logika dan penyelesaian masalah. Kamu wajib menyimak materi mulai dari Part 1 sampai dengan Part 4. Jika terdapat materi yang belum difahami, jangan segan untuk memutar ulang video. [TONTON VIDEO](https://www.youtube.com/watch?v=bGcW9nQ8vEE&list=PL3WF_ooYwH1c1xD4vS4zs6tIA5qd9UmQt&index=2&t=0s)
+Sebelum kamu mempelajari bahasa pemrograman Golang, terdapat beberapa syarat yang harus kamu selesaikan
+- Syarat #1 : Kamu wajib menyelesaikan video pengenalan Algoritma mulai part 1 sampai 4. Video ini mempermudah kamu saat belajar pemrograman. Jangan segan untuk memutar ulang video jika belum mamahami dengan baik! [TONTON VIDEO](https://www.youtube.com/watch?v=bGcW9nQ8vEE&list=PL3WF_ooYwH1c1xD4vS4zs6tIA5qd9UmQt&index=2&t=0s)
+- Syarat #2 : Kamu wajib menginstall Golang di Laptop kamu. [CARA INSTALL DISINI](https://dasarpemrogramangolang.novalagung.com/2-instalasi-golang.html)
+- Syarat #3 : Kamu wajib menginstall VS Code di Lapto kamu. [DOWNLOAD VS CODE](https://code.visualstudio.com/download)
 
 ### 📘 Kurikulum Silabus
 #### Minggu ke-1

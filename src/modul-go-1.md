@@ -1,4 +1,4 @@
-## Modul 1 # Dasar Pemrograman Golang
+## Modul 1 # Data Type, Branching & Looping
 
 ### 🏠 [back to home](https://github.com/alterra-academy/golang-class)
 
