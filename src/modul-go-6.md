@@ -15,14 +15,14 @@ Silakan mempelajari terlebih dahulu lebih lanjut mengenai SQL dan MySQL. Sekaran
 
 1. Create database ata_online_shop.
 2. Dari schema Olshop yang telah kamu kerjakan di, Implementasikanlah menjadi table pada MySQL.
-  * Create table user.
-  * Create table product, product type, operators, product description, payment_method.
-  * Create table transaction, transaction detail.
+    * Create table user.
+    * Create table product, product type, operators, product description, payment_method.
+    * Create table transaction, transaction detail.
 3. Create tabel kurir dengan filed id, name, created_at, updated_at.
 4. Tambahkan ongkos_dasar column di tabel kurir.
 5. Rename tabel kurir menjadi shipping.
 6. Hapus / Drop tabel shipping karena ternyata tidak dibutuhkan.
 7. Silahkan menambahkan entity baru dengan relation 1-to-1, 1-to-many, many-to-many. Seperti:
-  * 1-to-1: payment method description
-  * 1-to-many: user dengan alamat.
-  * many-to-many: user dengan payment method menjadi user_payment_method_detail.
+    * 1-to-1: payment method description
+    * 1-to-many: user dengan alamat.
+    * many-to-many: user dengan payment method menjadi user_payment_method_detail.
