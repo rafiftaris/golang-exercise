@@ -11,9 +11,9 @@ Kami yakin bahwa kamu akan mengalami petualangan yang sangat seru! Berikut berba
 
 ### 🔑 Pra-syarat
 Sebelum kamu mempelajari bahasa pemrograman Golang, terdapat beberapa syarat yang harus kamu selesaikan
-- Syarat #1 : Kamu wajib menyelesaikan video pengenalan Algoritma mulai part 1 sampai 4. Video ini mempermudah kamu saat belajar pemrograman. Jangan segan untuk memutar ulang video jika belum mamahami dengan baik! [TONTON VIDEO](https://www.youtube.com/watch?v=bGcW9nQ8vEE&list=PL3WF_ooYwH1c1xD4vS4zs6tIA5qd9UmQt&index=2&t=0s)
-- Syarat #2 : Kamu wajib menginstall Golang di Laptop kamu. [CARA INSTALL DISINI](https://dasarpemrogramangolang.novalagung.com/2-instalasi-golang.html)
-- Syarat #3 : Kamu wajib menginstall VS Code di Lapto kamu. [DOWNLOAD VS CODE](https://code.visualstudio.com/download)
+- Syarat #1 : Kamu wajib menyelesaikan [Video Pengenalan Algoritma](https://www.youtube.com/watch?v=bGcW9nQ8vEE&list=PL3WF_ooYwH1c1xD4vS4zs6tIA5qd9UmQt&index=2&t=0s) mulai part 1 sampai 4. Video ini mempermudah kamu saat belajar pemrograman. Jangan segan untuk memutar ulang video jika belum mamahami dengan baik!
+- Syarat #2 : Kamu Wajib melakukan [Installasi Software Golang](https://dasarpemrogramangolang.novalagung.com/2-instalasi-golang.html) di Laptop kamu.
+- Syarat #3 : Kamu wajib melakukan [Instalasi Editor VS Code](https://code.visualstudio.com/download) di Lapto kamu.
 
 ### 📘 Kurikulum Silabus
 #### Minggu ke-1
