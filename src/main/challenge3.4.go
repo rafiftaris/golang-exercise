@@ -2,15 +2,20 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"strconv"
 	"strings"
 )
 
-func strToIntArr(str string) (result []int) {
-	var k int
+func stringToArrayOfIntegers(str string) (result []int) {
 	arrStr := strings.Split(str, ",")
 	for _, each := range arrStr {
-		k, _ = strconv.Atoi(each)
+		k, err := strconv.Atoi(each)
+		if err != nil {
+			fmt.Println("Input Anda tidak sesuai dengan contoh. Harap ikuti contoh yang tertera.")
+			os.Exit(2)
+		}
+
 		result = append(result, k)
 	}
 	return
@@ -40,6 +45,7 @@ func Merge(left, right []int) []int {
 	return slice
 }
 
+// Breaks down slice into two smaller pieces (recursively) then merge sort the slices
 func MergeSort(slice []int) []int {
 
 	if len(slice) < 2 {
@@ -50,16 +56,16 @@ func MergeSort(slice []int) []int {
 }
 
 func HowManyGifts(maxBudget int, gifts []int) int {
-	var sum int
-	var count int
-	for _, gift := range gifts {
-		sum += gift
-		if sum > maxBudget {
+	var priceSum int
+	var giftBought int
+	for _, giftPrice := range gifts {
+		priceSum += giftPrice
+		if priceSum > maxBudget {
 			break
 		}
-		count++
+		giftBought++
 	}
-	return count
+	return giftBought
 }
 
 func main() {
@@ -81,7 +87,8 @@ func main() {
 		break
 	}
 
-	sortedGifts := MergeSort(strToIntArr(gifts))
+	arrayOfGifts := stringToArrayOfIntegers(gifts)
+	sortedGifts := MergeSort(arrayOfGifts)
 
 	fmt.Print("Output: ")
 	fmt.Println(gifts)
