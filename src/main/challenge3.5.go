@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func checkPrime(num int) bool {
+func isPrime(num int) bool {
 	for i := 2; i <= int(math.Ceil(float64(num)/2)); i++ {
 		if num%i == 0 {
 			return false
@@ -14,61 +14,65 @@ func checkPrime(num int) bool {
 	return true
 }
 
-func primaSegiEmpat(P, L, X int) {
-	size := P * L
-	arr := make([][]int, L)
-	for i := 0; i < L; i++ {
-		arr[i] = make([]int, P)
+// Generating prime numbers and put it inside the two dimensional array
+func primaSegiEmpat(panjang, lebar, batasAwal int) {
+	size := panjang * lebar
+	rectangle := make([][]int, lebar)
+	for i := 0; i < lebar; i++ {
+		rectangle[i] = make([]int, panjang)
 	}
-	var count int
-	var num = X + 1
+	var index int
+	var number = batasAwal + 1
 	var sum int
-	for count < size {
-		for !checkPrime(num) || num == 0 || num == 1{
-			num++
+	for index < size {
+		for !isPrime(number) || number == 0 || number == 1{
+			number++
 		}
-		arr[count/P][count%P] = num
-		sum += num
-		num++
-		count++
+		rectangle[index/panjang][index%panjang] = number
+		sum += number
+		number++
+		index++
 	}
-
-	for i := 0; i < len(arr); i++ {
-		for j := 0; j < len(arr[i]); j++ {
-			fmt.Print(arr[i][j], " ")
-		}
-		fmt.Println()
-	}
+	printRectangle(rectangle)
 	fmt.Println("Total: ", sum)
 }
 
+func printRectangle(rectangle [][]int)  {
+	for i := 0; i < len(rectangle); i++ {
+		for j := 0; j < len(rectangle[i]); j++ {
+			fmt.Print(rectangle[i][j], " ")
+		}
+		fmt.Println()
+	}
+}
+
 func main() {
-	var p, l, x int
+	var panjang, lebar, batasAwal int
 	fmt.Println("RECTANGULAR PRIME")
 	for{
 		fmt.Println("Input: ")
 		fmt.Print("P = ")
-		_, _ = fmt.Scanln(&p)
+		_, _ = fmt.Scanln(&panjang)
 
-		if p <=0 {
+		if panjang <=0 {
 			fmt.Println("P harus lebih besar dari 0")
 			fmt.Println()
 			continue
 		}
 
 		fmt.Print("L = ")
-		_, _ = fmt.Scanln(&l)
+		_, _ = fmt.Scanln(&lebar)
 
-		if l <=0 {
+		if lebar <=0 {
 			fmt.Println("L harus lebih besar dari 0")
 			fmt.Println()
 			continue
 		}
 
 		fmt.Print("X = ")
-		_, _ = fmt.Scanln(&x)
+		_, _ = fmt.Scanln(&batasAwal)
 
-		if x < 0 {
+		if batasAwal < 0 {
 			fmt.Println("X harus lebih besar atau sama dengan 0")
 			fmt.Println()
 			continue
@@ -77,5 +81,5 @@ func main() {
 	}
 
 
-	primaSegiEmpat(p, l, x)
+	primaSegiEmpat(panjang, lebar, batasAwal)
 }

@@ -21,7 +21,7 @@ func stringToArrayOfIntegers(str string) (result []int) {
 	return
 }
 
-// Merges left and right slice into newly created slice
+// Merges left and right slice into newly sorted slice
 func Merge(left, right []int) []int {
 
 	size, i, j := len(left)+len(right), 0, 0
