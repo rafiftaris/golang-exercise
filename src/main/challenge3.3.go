@@ -2,61 +2,62 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"strconv"
 	"strings"
 )
 
-func strToIntArr(str string) (result []int) {
-	var k int
+func stringToArrayOfIntegers(str string) (result []int) {
 	arrStr := strings.Split(str, ",")
 	for _, each := range arrStr {
-		k, _ = strconv.Atoi(each)
+		k, err := strconv.Atoi(each)
+		if err != nil {
+			fmt.Println("Input Anda tidak sesuai dengan contoh. Harap ikuti contoh yang tertera.")
+			os.Exit(2)
+		}
+
 		result = append(result, k)
 	}
 	return
 }
 
-func Statistik(kata string, array1 []int, array2 []int) (int, int) {
-	var max1, max2 int
-	var min1 = 1<<(32<<(^uint(0)>>32&1)-1) - 1
-	var min2 = 1<<(32<<(^uint(0)>>32&1)-1) - 1
+func findMaxOrMin(keyword string, array []int) (result int){
+	var min,max int
+	max = array[0]
+	min = array[0]
 
-	for _, each := range array1 {
-		if each > max1 {
-			max1 = each
+	for _, number := range array {
+		if number > max {
+			number = max
 		}
-		if each < min1 {
-			min1 = each
-		}
-	}
-	for _, each := range array2 {
-		if each > max2 {
-			max2 = each
-		}
-		if each < min2 {
-			min2 = each
+		if number < min {
+			number = min
 		}
 	}
-	if kata == "max" {
-		return max1, max2
+
+	if keyword == "max"{
+		return max
 	}
-	if kata == "min" {
-		return min1, min2
-	}
-	return 0, 0
+	return min
+}
+
+func Statistik(kata string, array1 []int, array2 []int) (int, int) {
+	resultFromArray1 := findMaxOrMin(kata,array1)
+	resultFromArray2 := findMaxOrMin(kata,array2)
+	return resultFromArray1,resultFromArray2
 }
 
 func main() {
-	var keyword, nums1, nums2 string
+	var keyword, numbersInputted1, numbersInputted2 string
 	fmt.Println("FIND MAX/MIN OF TWO ARRAY OF INTS")
 	for{
 		fmt.Println("Input: ")
 		fmt.Print("kata (max/min)= ")
 		_, _ = fmt.Scanln(&keyword)
 		fmt.Print("array1 (ex:1,2,3,4,5)= ")
-		_, _ = fmt.Scanln(&nums1)
+		_, _ = fmt.Scanln(&numbersInputted1)
 		fmt.Print("array2 (ex:1,2,3,4,5)= ")
-		_, _ = fmt.Scanln(&nums2)
+		_, _ = fmt.Scanln(&numbersInputted2)
 
 		if keyword != "max" && keyword != "min"{
 			fmt.Println("kata harus merupakan 'max' atau 'min'")
@@ -67,9 +68,9 @@ func main() {
 	}
 
 
-	arrNum1 := strToIntArr(nums1)
-	arrNum2 := strToIntArr(nums2)
+	arrayOfIntegers1 := stringToArrayOfIntegers(numbersInputted1)
+	arrayOfIntegers2 := stringToArrayOfIntegers(numbersInputted2)
 
 	fmt.Print("Output: ")
-	fmt.Println(Statistik(keyword, arrNum1, arrNum2))
+	fmt.Println(Statistik(keyword, arrayOfIntegers1, arrayOfIntegers2))
 }
