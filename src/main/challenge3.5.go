@@ -24,7 +24,7 @@ func primaSegiEmpat(P, L, X int) {
 	var num = X + 1
 	var sum int
 	for count < size {
-		for !checkPrime(num) {
+		for !checkPrime(num) || num == 0 || num == 1{
 			num++
 		}
 		arr[count/P][count%P] = num
@@ -45,13 +45,37 @@ func primaSegiEmpat(P, L, X int) {
 func main() {
 	var p, l, x int
 	fmt.Println("RECTANGULAR PRIME")
-	fmt.Println("Input: ")
-	fmt.Print("P = ")
-	_, _ = fmt.Scanln(&p)
-	fmt.Print("L = ")
-	_, _ = fmt.Scanln(&l)
-	fmt.Print("X = ")
-	_, _ = fmt.Scanln(&x)
+	for{
+		fmt.Println("Input: ")
+		fmt.Print("P = ")
+		_, _ = fmt.Scanln(&p)
+
+		if p <=0 {
+			fmt.Println("P harus lebih besar dari 0")
+			fmt.Println()
+			continue
+		}
+
+		fmt.Print("L = ")
+		_, _ = fmt.Scanln(&l)
+
+		if l <=0 {
+			fmt.Println("L harus lebih besar dari 0")
+			fmt.Println()
+			continue
+		}
+
+		fmt.Print("X = ")
+		_, _ = fmt.Scanln(&x)
+
+		if x < 0 {
+			fmt.Println("X harus lebih besar atau sama dengan 0")
+			fmt.Println()
+			continue
+		}
+		break
+	}
+
 
 	primaSegiEmpat(p, l, x)
 }

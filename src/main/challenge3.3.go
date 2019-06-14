@@ -49,13 +49,23 @@ func Statistik(kata string, array1 []int, array2 []int) (int, int) {
 func main() {
 	var keyword, nums1, nums2 string
 	fmt.Println("FIND MAX/MIN OF TWO ARRAY OF INTS")
-	fmt.Println("Input: ")
-	fmt.Print("kata (max/min)= ")
-	_, _ = fmt.Scanln(&keyword)
-	fmt.Print("array1 (ex:1,2,3,4,5)= ")
-	_, _ = fmt.Scanln(&nums1)
-	fmt.Print("array2 (ex:1,2,3,4,5)= ")
-	_, _ = fmt.Scanln(&nums2)
+	for{
+		fmt.Println("Input: ")
+		fmt.Print("kata (max/min)= ")
+		_, _ = fmt.Scanln(&keyword)
+		fmt.Print("array1 (ex:1,2,3,4,5)= ")
+		_, _ = fmt.Scanln(&nums1)
+		fmt.Print("array2 (ex:1,2,3,4,5)= ")
+		_, _ = fmt.Scanln(&nums2)
+
+		if keyword != "max" && keyword != "min"{
+			fmt.Println("kata harus merupakan 'max' atau 'min'")
+			fmt.Println()
+			continue
+		}
+		break
+	}
+
 
 	arrNum1 := strToIntArr(nums1)
 	arrNum2 := strToIntArr(nums2)

@@ -66,14 +66,24 @@ func main() {
 	var maxBudget int
 	var gifts string
 	fmt.Println("COUNT HOW MANY GIFTS CAN BE BOUGHT")
-	fmt.Println("Input: ")
-	fmt.Print("maxBudget = ")
-	_, _ = fmt.Scanln(&maxBudget)
-	fmt.Print("gifts = ")
-	_, _ = fmt.Scanln(&gifts)
+	for {
+		fmt.Println("Input: ")
+		fmt.Print("maxBudget = ")
+		_, _ = fmt.Scanln(&maxBudget)
+		fmt.Print("gifts (ex:10000,20000,40000)= ")
+		_, _ = fmt.Scanln(&gifts)
+
+		if maxBudget < 0{
+			fmt.Println("maxBudget harus lebih besar atau sama dengan 0")
+			fmt.Println()
+			continue
+		}
+		break
+	}
 
 	sortedGifts := MergeSort(strToIntArr(gifts))
 
 	fmt.Print("Output: ")
+	fmt.Println(gifts)
 	fmt.Println(HowManyGifts(maxBudget, sortedGifts))
 }

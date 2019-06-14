@@ -17,8 +17,18 @@ func Prima(N int) string {
 func main() {
 	var num int
 	fmt.Println("CHECK PRIME")
-	fmt.Print("Input: ")
-	_, _ = fmt.Scanln(&num)
+	for {
+		fmt.Print("Input: ")
+		_, _ = fmt.Scanln(&num)
+
+		if num < 0{
+			fmt.Println("Input tidak boleh negatif")
+			fmt.Println()
+			continue
+		}
+		break
+	}
+
 
 	fmt.Print("Output: ")
 	fmt.Println(Prima(num))

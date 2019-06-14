@@ -30,9 +30,9 @@ func TwoSums(Nums []int, Sum int) (result [][]int) {
 func main() {
 	var nums string
 	var sum int
-	fmt.Println("FIND TWO INTS WHICH SUMS EQUALS TO SUM")
+	fmt.Println("FIND TWO INTS WHICH SUMS EQUALS TO 'SUM'")
 	fmt.Println("Input: ")
-	fmt.Print("Nums = ")
+	fmt.Print("Nums (ex:1,2,3,4,5)= ")
 	_, _ = fmt.Scanln(&nums)
 	fmt.Print("Sum = ")
 	_, _ = fmt.Scanln(&sum)
