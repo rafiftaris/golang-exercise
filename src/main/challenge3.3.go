@@ -21,7 +21,7 @@ func stringToArrayOfIntegers(str string) (result []int) {
 	return
 }
 
-func findMaxOrMin(keyword string, array []int) (result int){
+func findMaxMin(keyword string, array []int) (result int){
 	var min,max int
 	max = array[0]
 	min = array[0]
@@ -42,8 +42,8 @@ func findMaxOrMin(keyword string, array []int) (result int){
 }
 
 func Statistik(kata string, array1 []int, array2 []int) (int, int) {
-	resultFromArray1 := findMaxOrMin(kata,array1)
-	resultFromArray2 := findMaxOrMin(kata,array2)
+	resultFromArray1 := findMaxMin(kata,array1)
+	resultFromArray2 := findMaxMin(kata,array2)
 	return resultFromArray1,resultFromArray2
 }
 
