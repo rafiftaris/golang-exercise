@@ -28,9 +28,9 @@ func removeChar(str string, chars []string) (result string) {
 func main() {
 	var str, chars string
 	in := bufio.NewReader(os.Stdin)
-	fmt.Println("CONVERT CSV TO MAP")
+	fmt.Println("REMOVE CHARACTERS FROM A STRING")
 	fmt.Println("Input: ")
-	fmt.Print("String (one word only)= ")
+	fmt.Print("String = ")
 	str, _ = in.ReadString('\n')
 	fmt.Print("Char (ex:a,b,c,d)= ")
 	chars, _ = in.ReadString('\n')

@@ -15,7 +15,7 @@ func countMedian(arr []int) float32 {
 
 func main() {
 	var numbers string
-	fmt.Println("FIND MEAN OF AN ARRAY OF INTS")
+	fmt.Println("FIND MEDIAN OF AN ARRAY OF INTS")
 	fmt.Print("Input (ex:1,2,3,4,5): ")
 	_, _ = fmt.Scanln(&numbers)
 

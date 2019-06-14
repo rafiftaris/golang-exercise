@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var keys, values string
-	fmt.Println("FIND MEDIAN OF AN ARRAY OF INTS")
+	fmt.Println("CONVERT CSV TO MAP")
 	fmt.Println("Input: ")
 	fmt.Print("keys (ex:name,age)= ")
 	_, _ = fmt.Scanln(&keys)

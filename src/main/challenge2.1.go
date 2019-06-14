@@ -18,6 +18,7 @@ func countMean(arr []int) int {
 
 func main() {
 	var numbers string
+	fmt.Println("FIND MEAN OF AN ARRAY OF INTS")
 	fmt.Print("Input (contoh:1,2,3,4,5): ")
 	_, _ = fmt.Scanln(&numbers)
 
