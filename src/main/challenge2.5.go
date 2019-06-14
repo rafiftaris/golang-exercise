@@ -33,9 +33,7 @@ func findModus(arr []int) (result int) {
 	found := false
 	for key, value := range dict {
 		if max == value {
-			if found {
-				return -1
-			} else {
+			if !found {
 				found = true
 				result = key
 			}
